@@ -7,6 +7,8 @@ license = "roflan"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+fastapi = "^0.78.0"
+uvicorn = {extras = ["standard"], version = "^0.18.2"}
 
 [tool.poetry.dev-dependencies]
 
